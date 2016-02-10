@@ -1,0 +1,20 @@
+height = 400
+width = 100
+values = [0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7]
+centers =[0,0,0,0]
+centers2= []
+j = 0
+
+
+for i in values:
+    j += width/17
+    #print j
+    centers[0] = j 
+    centers[1] = (height/2)
+    centers[2] = (i)
+    centers[3] = True
+    centers2.append(centers)
+    print centers
+
+print len(centers2)
+print centers2
